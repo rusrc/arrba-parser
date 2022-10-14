@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser", "Arrba.Parser\Arrba.Parser.csproj", "{3F25CE98-7867-4A2C-B9E0-3C46830C9A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{F4941FB3-3DE9-431E-9879-9C9788E6AD95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Provider", "Arrba.Provider\Arrba.Parser.Provider.csproj", "{1EBE7ABF-4B23-4EF6-AF35-EE8FDC96BC93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Dto", "Arrba.Parser.Dto\Arrba.Parser.Dto.csproj", "{D63C656B-9267-432E-9ADC-243FC4E93C01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.DbContext", "Arrba.Parser.DbContext\Arrba.Parser.DbContext.csproj", "{E00455D6-99E1-476B-B1BE-4DC4CB685051}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Logger", "Arrba.Parser.Logger\Arrba.Parser.Logger.csproj", "{05633691-FD5F-459B-AFD5-0EA80910ECC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Services", "Arrba.Parser.Services\Arrba.Parser.Services.csproj", "{606A92A5-C023-45C8-A55D-13B8F4A1CE6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Exceptions", "Arrba.Parser.Exceptions\Arrba.Parser.Exceptions.csproj", "{E2203126-1106-4B49-88D6-12BCBD285B2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Mapper", "Arrba.Parser.Mapper\Arrba.Parser.Mapper.csproj", "{F5B0345B-6FA3-4A55-8FFA-3C0C215E43E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{70FD7517-FB26-4742-8798-13E37C3A9E35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrba.Parser.Api", "Arrba.Parser.Api\Arrba.Parser.Api.csproj", "{74513AC5-C270-4D75-99F7-97754DD2639A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrba.Parser.Extension", "Arrba.Parser.Extension\Arrba.Parser.Extension.csproj", "{F0E658DA-A865-4CFC-B3D1-8349BF313C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F25CE98-7867-4A2C-B9E0-3C46830C9A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F25CE98-7867-4A2C-B9E0-3C46830C9A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F25CE98-7867-4A2C-B9E0-3C46830C9A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F25CE98-7867-4A2C-B9E0-3C46830C9A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBE7ABF-4B23-4EF6-AF35-EE8FDC96BC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE7ABF-4B23-4EF6-AF35-EE8FDC96BC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE7ABF-4B23-4EF6-AF35-EE8FDC96BC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE7ABF-4B23-4EF6-AF35-EE8FDC96BC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63C656B-9267-432E-9ADC-243FC4E93C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63C656B-9267-432E-9ADC-243FC4E93C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63C656B-9267-432E-9ADC-243FC4E93C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63C656B-9267-432E-9ADC-243FC4E93C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00455D6-99E1-476B-B1BE-4DC4CB685051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00455D6-99E1-476B-B1BE-4DC4CB685051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00455D6-99E1-476B-B1BE-4DC4CB685051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00455D6-99E1-476B-B1BE-4DC4CB685051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05633691-FD5F-459B-AFD5-0EA80910ECC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05633691-FD5F-459B-AFD5-0EA80910ECC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05633691-FD5F-459B-AFD5-0EA80910ECC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05633691-FD5F-459B-AFD5-0EA80910ECC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606A92A5-C023-45C8-A55D-13B8F4A1CE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606A92A5-C023-45C8-A55D-13B8F4A1CE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606A92A5-C023-45C8-A55D-13B8F4A1CE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606A92A5-C023-45C8-A55D-13B8F4A1CE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2203126-1106-4B49-88D6-12BCBD285B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2203126-1106-4B49-88D6-12BCBD285B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2203126-1106-4B49-88D6-12BCBD285B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2203126-1106-4B49-88D6-12BCBD285B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B0345B-6FA3-4A55-8FFA-3C0C215E43E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B0345B-6FA3-4A55-8FFA-3C0C215E43E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B0345B-6FA3-4A55-8FFA-3C0C215E43E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B0345B-6FA3-4A55-8FFA-3C0C215E43E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74513AC5-C270-4D75-99F7-97754DD2639A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74513AC5-C270-4D75-99F7-97754DD2639A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74513AC5-C270-4D75-99F7-97754DD2639A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74513AC5-C270-4D75-99F7-97754DD2639A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E658DA-A865-4CFC-B3D1-8349BF313C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E658DA-A865-4CFC-B3D1-8349BF313C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E658DA-A865-4CFC-B3D1-8349BF313C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E658DA-A865-4CFC-B3D1-8349BF313C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A64ABEE-9939-412D-A831-09C6C0E87A8A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arrba.Parser.DbContext\Arrba.Parser.DbContext.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Mapper\Arrba.Parser.Mapper.csproj" />
+    <ProjectReference Include="..\Arrba.Parser\Arrba.Parser.csproj" />
+    <ProjectReference Include="..\Arrba.Provider\Arrba.Parser.Provider.csproj" />
+  </ItemGroup>
+
+</Project>

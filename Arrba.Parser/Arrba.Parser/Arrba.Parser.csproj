@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.2" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arrba.Parser.DbContext\Arrba.Parser.DbContext.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Extension\Arrba.Parser.Extension.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Logger\Arrba.Parser.Logger.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Mapper\Arrba.Parser.Mapper.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Services\Arrba.Parser.Services.csproj" />
+    <ProjectReference Include="..\Arrba.Provider\Arrba.Parser.Provider.csproj" />
+  </ItemGroup>
+
+</Project>

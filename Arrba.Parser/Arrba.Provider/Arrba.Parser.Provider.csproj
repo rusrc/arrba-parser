@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Realization\RolfRuV2Provider.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.11.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Arrba.Parser.DbContext\Arrba.Parser.DbContext.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Dto\Arrba.Parser.Dto.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Exceptions\Arrba.Parser.Exceptions.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Logger\Arrba.Parser.Logger.csproj" />
+    <ProjectReference Include="..\Arrba.Parser.Services\Arrba.Parser.Services.csproj" />
+  </ItemGroup>
+
+</Project>
